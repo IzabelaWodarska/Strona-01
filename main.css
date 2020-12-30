@@ -1,5 +1,7 @@
 p{
     font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
 }
 
 h1 {
@@ -7,7 +9,7 @@ h1 {
     padding-top: 15px;
 }
 
-h2 {
+.section h2 {
     text-align: left;
     font-size: 17px;
 }
@@ -38,7 +40,6 @@ nav li{
     display: inline-block;
     margin: 0 55px;
     text-align: left;
-
 }
 
 main {
@@ -57,29 +58,23 @@ nav a:hover{
     color: #464040;
     padding: 6px;
     border-style: none;
-    
 }
 
 article{
     width: 70%;
     padding: 30px;
-    
 }
 
 aside {
     width: 15%;
     padding: 10px;
     border-left: 1px solid #e1e1e1;
-    
 }
-
 
 #naglowek {
     text-align: center;
     color: cadetblue;
 }
-
-
 
 .slider {
     padding-bottom: 6px; 
@@ -102,7 +97,19 @@ aside {
 }
 
 
-#kontakt {
+#contact {
+    text-align: center;
+    text-align:justify; 
+    padding: 20px;
+}
+
+#team {
+    text-align: center;
+    text-align:justify; 
+    padding: 20px;
+}
+
+#gallery {
     text-align: center;
     text-align:justify; 
     padding: 20px;
@@ -117,4 +124,3 @@ li {
     padding: 0 0 0 16px;
     font-size: 14px;
 }
-
