@@ -1,0 +1,120 @@
+p{
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 17px;
+}
+
+.container {
+    max-width:2000px;
+        margin: 30px auto;
+    border: 20 px solid #e1e1e1;
+    border-radius: 6px;
+    box-shadow: 0 0 180px #000000;
+}
+
+header{
+    display: block;
+    align-items:stretch;
+    justify-content: flex-start;
+    padding: 0px;
+}
+
+nav ul {
+    margin: 0;
+    padding-bottom: 11px;
+    padding-top: 8px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 55px;
+    text-align: left;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+    
+    a {
+        text-decoration: none;
+        color: #777;
+        transition: all 1s ease;
+}
+
+nav a:hover{
+    background: rgba(185, 176, 176, 0.26);
+    color: #464040;
+    padding: 6px;
+    border-style: none;
+    
+}
+
+article{
+    width: 70%;
+    padding: 30px;
+    
+}
+
+aside {
+    width: 15%;
+    padding: 10px;
+    border-left: 1px solid #e1e1e1;
+    
+}
+
+
+#naglowek {
+    text-align: center;
+    color: cadetblue;
+}
+
+
+
+.slider {
+    padding-bottom: 6px; 
+    overflow: hidden;
+}
+
+.slider img{
+    display: block;
+    transition: transform 2s ease;
+}
+
+.slider img:hover {
+    transform: rotate(2deg) scale(1.25);
+}
+
+#footer {
+    text-align: center;
+    border-top:  1px solid #e1e1e1;
+    padding: 1px;
+}
+
+
+#kontakt {
+    text-align: center;
+    text-align:justify; 
+    padding: 20px;
+}
+
+li {
+    text-align: left;
+}
+
+.widget ul {
+    list-style-type: square;
+    padding: 0 0 0 16px;
+    font-size: 14px;
+}
+
